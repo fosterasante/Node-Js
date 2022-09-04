@@ -1,5 +1,14 @@
-<%# views/layout.ejs %>
+<!--NavBar here-->
+<%- include('header.ejs'); %> 
 
-block content
-  h1= title
-  p Welcome to #{title}
+
+<div id="footer">
+<%- include('footer') %> 
+</div>
+
+<style>
+  #footer{
+    position: relative;
+    top: 85vh;
+  }
+</style>
